@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Person person = new Person("David", "Smith", 40);
-        System.out.println(person);
+        Person personV2 = new Person("David", "Smith", 40);
+        System.out.println(personV2);
         Gson gson = new Gson();
-        String personJson = gson.toJson(person);
+        String personJson = gson.toJson(personV2);
         System.out.println(personJson);
         String[] colors = new String[]{"Red", "Green", "Blue"};
         for (int i = 0; i < colors.length; i++) {
